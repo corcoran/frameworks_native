@@ -69,7 +69,6 @@ private:
     template<> Mutex Singleton< TYPE >::sLock(Mutex::PRIVATE);  \
     template<> TYPE* Singleton< TYPE >::sInstance(0);
 
-
 // ---------------------------------------------------------------------------
 }; // namespace android
 
